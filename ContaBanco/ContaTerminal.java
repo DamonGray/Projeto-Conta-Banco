@@ -7,7 +7,11 @@ public class ContaTerminal {
         
         System.out.println("Por favor, digite o número da conta: ");
         String numeroConta = scanner.next();
-        
+        /* Aqui há um erro porque era para adicionar uma variável int,
+        mas não entendi como adicionar ela junto ao scanner, portanto deixei
+        como String, o código funciona, porém se alguém puder me dar o feedback
+        de como conciliar essas duas ferramentas agradeço*/
+
         System.out.println("Por favor, digite o número da Agência: ");
         String numeroAgencia = scanner.next();
 
